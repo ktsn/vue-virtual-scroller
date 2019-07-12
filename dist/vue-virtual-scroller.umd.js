@@ -1301,7 +1301,7 @@ var DynamicScroller = { render: function render() {
     }
   },
 
-  created: function created() {
+  beforeCreate: function beforeCreate() {
     this.$_updates = [];
     this.$_undefinedSizes = 0;
     this.$_undefinedMap = {};
